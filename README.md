@@ -42,23 +42,23 @@ Built using **HTML, CSS, JavaScript, and Java**, it allows travelers to choose d
 
 EcoVoyage/
 ├── src/
-│ ├── Ecovoyage.java # Java backend server
-│ ├── Ecovoyage$CalculatePlan.class
-│ └── Ecovoyage$StaticFileHandler.class
+│   ├── Ecovoyage.java
+│   ├── Ecovoyage.class
+│   ├── Ecovoyage$CalculateHandler.class
+│   └── Ecovoyage$StaticFileHandler.class
 │
 ├── web/
-│ ├── index.html # Main website
-│ ├── script.js # JS logic for frontend
-│ ├── style.css # Styling for the interface
-│ └── images/ # City images
-│ ├── paris.jpg
-│ ├── tokyo.jpg
-│ ├── london.jpg
-│ ├── seoul.jpg
-│ ├── mexico.jpg
-│ ├── hongkong.jpg
-│ └── kerala.jpg
-
+│   ├── index.html
+│   ├── script.js
+│   ├── style.css
+│   └── images/
+│       ├── paris.jpg
+│       ├── tokyo.jpg
+│       ├── london.jpg
+│       ├── seoul.jpg
+│       ├── mexico.jpg
+│       ├── hongkong.jpg
+│       └── kerala.jpg
 ---
 
 ## 🚀 How to Run Locally
