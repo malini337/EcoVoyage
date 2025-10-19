@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EcoVoyage 🌿</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+
+    <!-- Login Page -->
+    <div id="loginPage" class="section">
+        <h1>🌎 Welcome to EcoVoyage 🌿</h1>
+        <p>Plan your eco-friendly trip with us!</p>
+
+        <label for="username">Full Name:</label>
+        <input type="text" id="username" placeholder="Enter your name" required>
+
+        <label for="phone">Phone Number:</label>
+        <input type="text" id="phone" placeholder="Enter your phone" required>
+
+        <label for="email">Email ID:</label>
+        <input type="email" id="email" placeholder="Enter your email" required>
+
+        <button onclick="login()">Login</button>
+    </div>
+
+    <!-- Main Planner -->
+    <div id="plannerPage" style="display:none;">
+        <h1>💜 EcoVoyage Travel Planner 💛</h1>
+
+        <div class="section">
+            <label for="citySelect">Choose a City:</label>
+            <select id="citySelect"></select>
+        </div>
+
+        <div class="section" id="cityImage"></div>
+
+        <div class="section">
+            <h3>Destinations / Attractions</h3>
+            <div id="destinations"></div>
+        </div>
+
+        <div class="section">
+            <label for="cuisineSelect">Choose Cuisine:</label>
+            <select id="cuisineSelect"></select>
+        </div>
+
+        <div class="section">
+            <label for="hotelSelect">Choose Hotel:</label>
+            <select id="hotelSelect"></select>
+            <label for="rooms">Number of Rooms:</label>
+            <input type="number" id="rooms" value="1" min="1">
+        </div>
+
+        <div class="section">
+            <label for="travelSelect">Travel Class:</label>
+            <select id="travelSelect"></select>
+            <label for="travelers">Number of Travelers:</label>
+            <input type="number" id="travelers" value="1" min="1">
+        </div>
+
+        <div class="section">
+            <label for="days">Number of Days:</label>
+            <input type="number" id="days" value="1" min="1">
+        </div>
+
+        <div class="section">
+            <button onclick="calculatePlan()">Calculate Trip</button>
+        </div>
+
+        <div class="section" id="planSummary"></div>
+        <div class="section" id="costBreakdown"></div>
+    </div>
+
+    <!-- Thank You Page -->
+    <div id="thankYouPage" class="section" style="display:none;">
+        <h2>🎉 Thank You for using EcoVoyage!</h2>
+        <p>Traveler: <b><span id="displayName"></span></b></p>
+        <p>Email: <b><span id="displayEmail"></span></b></p>
+        <p>Phone: <b><span id="displayPhone"></span></b></p>
+
+        <h3>Your Trip Summary</h3>
+        <div id="finalSummary"></div>
+
+        <h3>Full Cost Breakdown</h3>
+        <div id="finalBreakdown" style="font-weight:bold; color:#2e8b57;"></div>
+
+        <button onclick="restart()">Plan Another Trip</button>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
