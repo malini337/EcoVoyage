@@ -38,6 +38,7 @@ Built using **HTML, CSS, JavaScript, and Java**, it allows travelers to choose d
 | **Localhost** | Run the project locally on your system |
 
 ---
+🗂️ Folder Structure
 EcoVoyage/
 ├── src/
 │ ├── Ecovoyage.java # Java backend server
@@ -78,5 +79,4 @@ Malini S
 GitHub: malini337
 
 Project Repository: EcoVoyage
-## 📂 Folder Structure
 
