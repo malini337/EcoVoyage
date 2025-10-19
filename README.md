@@ -66,13 +66,16 @@ EcoVoyage/
 1. Open terminal and navigate to the project folder:
    ```bash
    cd EcoVoyage/src
-2. Compile the Java backend:
+2. Dependencies:
+   - Java 8 or higher  
+   - json.jar library (for JSON parsing)
+3. Compile the Java backend:
    javac Ecovoyage.java
-3. Run the server:
-   java -cp . Ecovoyage
-4. Open your browser and go to:
+4. Run the server:
+   java -cp .;json.jar Ecovoyage
+5. Open your browser and go to:
    http://localhost:8080
-5. The EcoVoyage homepage will appear:
+6. The EcoVoyage homepage will appear:
    Login using your name, phone, and email → plan your trip → and get a detailed cost summary with a thank-you screen.
 👩‍💻 Author
 
