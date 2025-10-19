@@ -39,6 +39,7 @@ Built using **HTML, CSS, JavaScript, and Java**, it allows travelers to choose d
 
 ---
 🗂️ Folder Structure
+
 EcoVoyage/
 ├── src/
 │ ├── Ecovoyage.java # Java backend server
